@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Questrial', sans-serif;
+  margin:0;
+}
+
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+header{
+  text-align: center;
+}
+
+.contenitore {
+  height: 100%;
+  width: 100%;
+}
+
+
+.Quadrato-Sfondo{
+  width: 65%;
+  height: 95%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 20%;
+  margin-top: 9%;
+}
+
+.titolo {
+  color: #00FF00;
+  margin-bottom: 1%;
+  margin-top: 1%;
+
+}
+
+.rettangolo {
+  width: 80%;
+  height: 6%;
+  background-color: #00FF00;
+  margin: auto;
+}
+
+.navigazione {
+  padding: 1%;
+  display: inline-block;
+  line-height: 18px;
+}
+
+.button {
+  margin: auto;
+}
+
+/* Quadrato Gino22 */
+.quadrato {
+  width: 10px;
+  height: 10px;
+  background: white;
+  display: inline-block;
+}
+
+.modello{
+  width: 80%;
+  color: white;
+  display: inline-block;
+  text-align: left;
+}
+
+.modello-tipo,.modello-tipo-1,.modello-tipo-2{
+  display: inline-block;
+  text-align: left;
+  margin: 10px;
+}
+
+.indirizzo,.indirizzo-1,.indirizzo-2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.carica {
+  margin-top: 5px;
+}
+
+.img-carica {
+  margin-top: 10px;
+  margin-left: 0;
+  width: 40%;
+  height: 35px;
+  background: orange;
+  border-radius: 6px;
+}
+
+.img-carica-1 {
+  margin-top: 10px;
+  margin-left: 0;
+  width: 70%;
+  height: 35px;
+  background: #00FF00;
+  border-radius: 6px;
+}
+
+.img-carica-2 {
+  margin-top: 10px;
+  margin-left: 0;
+  margin-bottom: 10%;
+  width: 25%;
+  height: 35px;
+  background: #A52A2A;
+  border-radius: 6px;
+}
